@@ -1,7 +1,7 @@
 box: chaindev/ci:20170710
 # To update the docker image for this "box",
 # see $CHAIN/docker/ci.
-
+nv
 services:
   - id: clkao/postgres-plv8
     env:
